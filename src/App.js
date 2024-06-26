@@ -15,8 +15,8 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import tr from './assets/tr.json';
 
 const App = () => {
-  const [latitude, setLatitude] = useState('40.39126785562374');
-  const [longitude, setLongitude] = useState('27.850470906539105');
+  const [latitude, setLatitude] = useState('');
+  const [longitude, setLongitude] = useState('');
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
   const [state, setState] = useState();
